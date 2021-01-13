@@ -2,8 +2,108 @@
 <html>
   <head>
     <title>Wilkens elektrische installaties</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      @import url(https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap%27);
+      @import url(https://fonts.googleapis.com/css2?family=Padauk:wght@700&display=swap%27);
+      .header-img {
+        width: 100%;
+        height: 300px;
+        background: url(https://cdn.discordapp.com/attachments/552950087723253784/788785402462732328/image0.jpg);
+        background-size: cover;
+      }
+
+      .navbar {
+        overflow: hidden;
+        background-color: #bf0000;
+      }
+
+      .navbar a {
+        font-family: 'Roboto Condensed', sans-serif;
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+      }
+
+      .navbar a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+
+      .main {
+        font-family: 'Padauk', sans-serif;
+        font-size: 20px;
+        background-color: #1aff00;
+        padding: 20px;
+      }
+
+      span {
+        display: block;
+      }
+
+      h3 {
+        margin-top: 0;
+        margin-bottom: 10px;
+        color: black;
+        width: 100%;
+        font-family: 'Roboto Condensed', sans-serif;
+      }
+
+      footer h3 {
+        text-align: center;
+        color: white;
+        font-family: 'Roboto Condensed', sans-serif;
+      }
+
+      h4 {
+        font-size: 20px;
+        font-family: 'Roboto Condensed', sans-serif;
+      }
+
+      p {
+        text-align: left;
+        margin-top: 0;
+        margin-bottom: 10px;
+        color: black;
+        width: 100%;
+        font-family: 'Roboto Condensed', sans-serif;
+      }
+
+
+
+      @media screen and (max-width: 700px) {
+        .main {
+          flex-direction: column;
+        }
+      }
+
+      @media screen and (max-width: 400px) {
+        .navbar a {
+          float: none;
+          width:100%;
+        }
+      }
+    </style>
   </head>
-  <body>
-  Hello World
+  <div style ="background-color:#a9a9a9;">
+    <div class = "header-img">
+    </div>
+    <div class = "navbar">
+      <a href="../html/index.html">Home</a>
+      <a href="../html/concert.html">Concerten</a>
+      <a href="../html/sport.html">Sport</a>
+      <a href="../html/Recepten.html">Recepten</a>
+      <a href="../html/contact.html">Contact</a>
+      <a href="../html/overons.html">Over Ons</a>
+
+    </div>
+    <div class="main">
+
+  </div>
   </body>
 </html>
